@@ -60,3 +60,6 @@ Each order belongs to a customer and involves a specific product.
 
 ---
 
+### Dataset: Click [here](https://github.com/bhargav12341996/SQL-Projects/blob/main/Sales%20order%20Analysis%20using%20SQL/Dataset%20File/Sales_Order_Dataset_PostgreSQL.txt)
+
+### Project File: Click [here](https://github.com/bhargav12341996/SQL-Projects/blob/main/Sales%20order%20Analysis%20using%20SQL/Sales_Order_Analysis.sql)
