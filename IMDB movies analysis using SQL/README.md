@@ -43,5 +43,10 @@ The goal is to perform SQL-based analysis on a dataset containing the top movies
 | **Ordering & Sorting** | `ORDER BY`                                                                          |
 | **Runtime Conversion** | `ROUND(REPLACE(runtime, ' min', '')::DECIMAL / 60, 2)`                             |
 
+---
 
+DATASET: Click [here](https://github.com/bhargav12341996/SQL-Projects/tree/main/IMDB%20movies%20analysis%20using%20SQL/Dataset)
+PROJECT FILE: Click [here](https://github.com/bhargav12341996/SQL-Projects/blob/main/IMDB%20movies%20analysis%20using%20SQL/IMDB%20analysis%20using%20SQL.sql)
+
+---
 
