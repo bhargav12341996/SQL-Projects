@@ -12,6 +12,8 @@ An art gallery maintains a database of its paintings, artists, collectors, and s
 
 * Answer common business questions using SQL.
 
+---
+
 🗂️ Database Schema:
 
 This project consists of four core tables:
@@ -48,6 +50,8 @@ This project consists of four core tables:
 
 * sales_price (float): Final sale amount
 
+---
+
 🧠 Key Business Questions & SQL Solutions:
 
 1. Which paintings are listed above the average price?
@@ -60,6 +64,7 @@ This project consists of four core tables:
 
 5. Identify and remove duplicate artists
 
+---
 
 📈 Insights Uncovered:
 
@@ -71,6 +76,8 @@ This project consists of four core tables:
 
 * Data quality routines help maintain integrity in the artists table.
 
+---
+
 🛠️ SQL Functions and Techniques Used:
 
 * Aggregation:	SUM, AVG, COUNT, GROUP BY, HAVING
@@ -80,3 +87,11 @@ This project consists of four core tables:
 * DML Functions:	INSERT, DELETE, SELECT
 * DDL Functions:	CREATE TABLE AS, Backup tables
 * Other Functions: Deduplication, GROUP BY, MIN, NOT IN
+
+---
+
+* DATASET: Click [here](https://github.com/bhargav12341996/SQL-Projects/blob/main/Painting%20Sales%20Analysis%20using%20SQL/Dataset/Painting_Sales_Dataset.txt)
+
+* PROJECT FILE: Click [here](https://github.com/bhargav12341996/SQL-Projects/blob/main/Painting%20Sales%20Analysis%20using%20SQL/Painting_Sales_Analysis.sql)
+
+---
