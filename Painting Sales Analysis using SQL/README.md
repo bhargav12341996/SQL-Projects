@@ -14,7 +14,7 @@ An art gallery maintains a database of its paintings, artists, collectors, and s
 🗂️ Database Schema
 This project consists of four core tables:
 
-1. paintings
+1. #PAINTINGS:
 
 * id (int): Unique painting ID
 
@@ -24,17 +24,17 @@ This project consists of four core tables:
 
 * listed_price (float): Price listed for sale
 
-2. artists
+2. #ARTISTS:
 * id (int): Unique artist ID
 
 * first_name, last_name (varchar): Artist name
 
-3. collectors
+3. #COLLECTORS:
 * id (int): Unique collector ID
 
 * first_name, last_name (varchar): Collector name
 
-4. sales
+4. #SALES:
 * id (int): Unique sale ID
 
 * sale_date (date): Date of transaction
