@@ -1,6 +1,7 @@
 🎨 Painting Sales Analysis - SQL Portfolio Project
 
-📌 Problem Statement
+📌 Problem Statement: 
+
 An art gallery maintains a database of its paintings, artists, collectors, and sales. The goal of this analysis is to:
 
 * Identify trends and insights from sales transactions.
@@ -11,7 +12,8 @@ An art gallery maintains a database of its paintings, artists, collectors, and s
 
 * Answer common business questions using SQL.
 
-🗂️ Database Schema
+🗂️ Database Schema:
+
 This project consists of four core tables:
 
 1. PAINTINGS:
@@ -25,16 +27,19 @@ This project consists of four core tables:
 * listed_price (float): Price listed for sale
 
 2. ARTISTS:
+
 * id (int): Unique artist ID
 
 * first_name, last_name (varchar): Artist name
 
 3. COLLECTORS:
+
 * id (int): Unique collector ID
 
 * first_name, last_name (varchar): Collector name
 
 4. SALES:
+
 * id (int): Unique sale ID
 
 * sale_date (date): Date of transaction
@@ -43,7 +48,8 @@ This project consists of four core tables:
 
 * sales_price (float): Final sale amount
 
-🧠 Key Business Questions & SQL Solutions
+🧠 Key Business Questions & SQL Solutions:
+
 1. Which paintings are listed above the average price?
 
 2. Which collectors have purchased paintings?
