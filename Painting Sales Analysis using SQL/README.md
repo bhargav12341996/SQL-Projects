@@ -15,32 +15,33 @@ An art gallery maintains a database of its paintings, artists, collectors, and s
 This project consists of four core tables:
 
 1. paintings
-id (int): Unique painting ID
 
-name (varchar): Title of the painting
+* id (int): Unique painting ID
 
-artist_id (int): Foreign key to artists.id
+* name (varchar): Title of the painting
 
-listed_price (float): Price listed for sale
+* artist_id (int): Foreign key to artists.id
+
+* listed_price (float): Price listed for sale
 
 2. artists
-id (int): Unique artist ID
+* id (int): Unique artist ID
 
-first_name, last_name (varchar): Artist name
+* first_name, last_name (varchar): Artist name
 
 3. collectors
-id (int): Unique collector ID
+* id (int): Unique collector ID
 
-first_name, last_name (varchar): Collector name
+* first_name, last_name (varchar): Collector name
 
 4. sales
-id (int): Unique sale ID
+* id (int): Unique sale ID
 
-sale_date (date): Date of transaction
+* sale_date (date): Date of transaction
 
-painting_id, artist_id, collector_id: Foreign keys
+* painting_id, artist_id, collector_id: Foreign keys
 
-sales_price (float): Final sale amount
+* sales_price (float): Final sale amount
 
 🧠 Key Business Questions & SQL Solutions
 1. Which paintings are listed above the average price?
@@ -54,22 +55,22 @@ sales_price (float): Final sale amount
 5. Identify and remove duplicate artists
 
 
-📈 Insights Uncovered
-High-value paintings are clearly identified for pricing strategy improvements.
+📈 Insights Uncovered:
 
-Collector behavior analysis helps identify repeat buyers.
+* High-value paintings are clearly identified for pricing strategy improvements.
 
-Artist sales trends enable prioritization and promotion efforts.
+* Collector behavior analysis helps identify repeat buyers.
 
-Data quality routines help maintain integrity in the artists table.
+* Artist sales trends enable prioritization and promotion efforts.
+
+* Data quality routines help maintain integrity in the artists table.
 
 🛠️ SQL Functions and Techniques Used:
 
-
-Aggregation:	SUM, AVG, COUNT, GROUP BY, HAVING
-Joins:	INNER JOIN
-Subqueries:	Scalar & Correlated subqueries
-String Functions:	Concat function used
-DML Functions:	INSERT, DELETE, SELECT
-DDL Functions:	CREATE TABLE AS, Backup tables
-Other Functions: Deduplication, GROUP BY, MIN, NOT IN
+* Aggregation:	SUM, AVG, COUNT, GROUP BY, HAVING
+* Joins:	INNER JOIN
+* Subqueries:	Scalar & Correlated subqueries
+* String Functions:	Concat function used
+* DML Functions:	INSERT, DELETE, SELECT
+* DDL Functions:	CREATE TABLE AS, Backup tables
+* Other Functions: Deduplication, GROUP BY, MIN, NOT IN
