@@ -62,3 +62,9 @@ Stores sequential student names to demonstrate row-based transformation.
 - ✅ Table creation and `INSERT` statements for reproducible demos
 
 ---
+
+## DATASET: Click [here](https://github.com/bhargav12341996/SQL-Projects/blob/main/Employees%20%26%20students%20database%20analysis%20using%20Windows%20functions/Dataset/Dataset_text_file.txt)
+
+## PROJECT FILE: Click [here](https://github.com/bhargav12341996/SQL-Projects/blob/main/Employees%20%26%20students%20database%20analysis%20using%20Windows%20functions/Project%20File.sql)
+
+---
