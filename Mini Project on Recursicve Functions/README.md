@@ -50,6 +50,6 @@ Basic DDL & DML (CREATE TABLE, INSERT, COMMIT)
 
 ---
 
-* Project File: Click [here](https://github.com/bhargav12341996/SQL-Projects/blob/main/Mini%20Project%20on%20Recursicve%20Functions/Project%20File.sql)
+# PROJECT FILE: Click [here](https://github.com/bhargav12341996/SQL-Projects/blob/main/Mini%20Project%20on%20Recursicve%20Functions/Project%20File.sql)
 
 ---
