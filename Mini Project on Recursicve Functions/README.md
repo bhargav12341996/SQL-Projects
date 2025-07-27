@@ -36,39 +36,8 @@ A **Recursive Common Table Expression** (`WITH RECURSIVE`) allows a query to rep
 
 ---
 
-## 🔍 Use Case 1: Find full hierarchy under a specific manager (e.g., Asha)
+## 🧮 SQL Functions & Concepts Used:
 
-```sql
-WITH RECURSIVE cte AS (
-    SELECT * FROM emp_details WHERE name = 'Asha'  -- Anchor member
-    UNION
-    SELECT e.* FROM cte
-    JOIN emp_details e ON e.manager_id = cte.id     -- Recursive member
-)
-SELECT * FROM cte;
-
----
-
-## 🔍 Use Case 2: Show emp_id, emp_name, and their manager_name in hierarchy
-
-
-WITH RECURSIVE cte AS (
-    SELECT emp.id AS emp_id, emp.name AS emp_name, mng.name AS manager_name, 1 AS iteration
-    FROM emp_details emp
-    JOIN emp_details mng ON emp.manager_id = mng.id
-    WHERE emp.name = 'Asha'
-
-    UNION
-
-    SELECT e.id, e.name, cte.emp_name, iteration + 1
-    FROM cte
-    JOIN emp_details e ON e.manager_id = cte.emp_id
-)
-SELECT * FROM cte;
-
----
-
-🧮 SQL Functions & Concepts Used
 WITH RECURSIVE CTE
 
 Self JOIN for hierarchy resolution
