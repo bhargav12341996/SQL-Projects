@@ -1,0 +1,3 @@
+[submodule "netflix_sql_project"]
+	path = netflix_sql_project
+	url = https://github.com/najirh/netflix_sql_project.git
